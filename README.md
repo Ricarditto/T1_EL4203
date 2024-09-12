@@ -1,4 +1,9 @@
 # T1 EL4203 Ricardo Salas Espiñeira
+## Cómo obtener resultados
+El código pcb.py incluye un ejemplo de implementación. Se puede modificar para graficar el tiempo para distintos tamaños de grillas, basta con modificar el argumento 'size' (lista de tuplas).
+El gráfico presente en el repositorio corresponde a los tiempos de ejecución para tamaños de grilla desde 1 a 15, con N = M.
+
+
 ## Preguntas teóricas
 
 1. ¿Qué es un paradigma de programación?
