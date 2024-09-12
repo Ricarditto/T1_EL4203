@@ -36,6 +36,7 @@ class PCB:
             t2 = time.time() - t1
             wrapper.execution_time = t2  # Almacena el tiempo de ejecución
             # print(f"La solución {func.__name__} demoró: {t2} segundos")
+            # no printeamos para reducir el tiempo de ejecución del código
             return resultado
         return wrapper
 
